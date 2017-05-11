@@ -1,0 +1,96 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+/*
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+.center-block-main {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-top {
+    padding: 30px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    text-transform: uppercase;
+    float: left;
+    font-size: 1.375em;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.contact-basket {
+    float: right;
+}
+
+.contact-basket p {
+    float: left;
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+.contact-basket p img {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.contact-basket p a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #7e7f84;
+    transition: color .5s;
+}
+
+.contact-basket p a:hover {
+    color: #f45a40;
+    transition: color .5s;
+}
+
+.header-phone {
+    padding-top: 8px;
+}
+
+.header-basket {
+    border: 1px solid #eee;
+    padding: 7px 25px;
+    margin-left: 20px;
+}
+
+.header-bottom {
+    clear: both;
+    padding: 10px 0;
+}
+
+.menu {
+    float: left;
+}
+
+.menu > li {
+    float: left;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-size: 0.875em;
+}
+
+.menu > li > a {
+    color: #7e7f84;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    color: #f45a40;
+}
+
+.search-form {
+    float: left;
+}
