@@ -155,3 +155,38 @@ header {
     width: 8px;
     height: 8px;
 }
+
+/* === MAIN CONTENT ==== */
+section#main-content {
+}
+
+section#main-content > article {
+    display: inline-block;
+    width: 31.6%;
+    margin-left: 2.2%;
+}
+
+section#main-content > article:first-child {
+    margin-left: 0;
+}
+
+section#main-content > article img {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+section#main-content > article h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.375em;
+    margin-bottom: 20px;
+}
+
+section#main-content > article h2 a:hover {
+    color: #f45a40;
+    text-decoration: underline;
+}
+
+section#main-content > article p {
+    font-size: 0.875em;
+}
