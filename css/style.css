@@ -313,3 +313,53 @@ section#about .mapin iframe {
     width: 100%;
     height: 100%;
 }
+
+/* === Section Subscribe === */
+section#subscribe {
+    background-color: #f45a40;
+    color: #fff;
+    padding: 30px 0;
+}
+
+section#subscribe .subscribe-content {
+    margin-top: 5px;
+}
+
+section#subscribe h2 {
+    float: left;
+    font-size: 1.325em;
+    text-transform: uppercase;
+}
+
+section#subscribe .subscribe-form {
+    float: right;
+}
+
+section#subscribe .email-inpt {
+    text-transform: uppercase;
+    float: left;
+    font-size: 0.875em;
+    width: 200px;
+    padding: 7px 20px;
+    border: 0;
+}
+
+section#subscribe .submit-inpt {
+    text-transform: uppercase;
+    float: left;
+    margin-left: 20px;
+    border: 1px solid #f48460;
+    padding: 7px 20px;
+    cursor: pointer;
+    font-size: 0.875em;
+    background-color: #f45a40;
+    color: #fff;
+    border-radius: 2px;
+    transition: background .25s linear;
+}
+
+section#subscribe .submit-inpt:hover {
+    background-color: #f45e4c;
+    transition: background .25s linear;
+
+}
