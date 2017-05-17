@@ -344,7 +344,9 @@ section#subscribe .email-inpt {
     border: 0;
 }
 
-section#subscribe .submit-inpt {
+section#subscribe .submit-inpt,
+footer .ftrsubmit {
+
     text-transform: uppercase;
     float: left;
     margin-left: 20px;
@@ -358,8 +360,99 @@ section#subscribe .submit-inpt {
     transition: background .25s linear;
 }
 
-section#subscribe .submit-inpt:hover {
-    background-color: #f45e4c;
+section#subscribe .submit-inpt:hover,
+footer .ftrsubmit:hover {
+    background-color: #f44e1f;
     transition: background .25s linear;
 
+}
+
+
+/* === Footer === */
+footer {
+    background-color: #2a2d34;
+    padding: 40px 0;
+}
+
+footer h2 {
+    font-size: 1.325em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 0.875em;
+    margin-bottom: 20px;
+    color: #858585;
+}
+
+footer h3 {
+    margin-bottom: 5px;
+    font-size: 0.875em;
+    color: #fff;
+
+}
+
+footer .ftr-block-content  a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer .block4-main article {
+    width: 23%;
+    margin-left: 2.66666666666666%;
+    float: left;
+    margin-bottom: 60px;
+}
+
+footer .block4-main article:first-child {
+    margin-left: 0;
+}
+
+footer .support {
+    float: left;
+    width: 48%;
+    font-size: 0.855em;
+    margin-right: 4%;
+}
+
+footer .support:last-child {
+    margin-right: 0;
+}
+
+footer .support a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: #7e7f84;
+    transition: color .5s ease;
+}
+
+footer .support a:hover {
+    text-decoration: underline;
+    color: #fff;
+    transition: color .5s ease;
+}
+
+footer .ftrmail,
+footer .ftrtext {
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-size: 0.75em;
+    margin-bottom: 15px;
+    padding: 7px 20px;
+    border: 0;
+}
+
+footer .ftrsubmit {
+    margin-left: 0;
 }
